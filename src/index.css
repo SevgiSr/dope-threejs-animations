@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/* to make min-height: 100vh; work for pages */
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+
+  --background1: #0a0614;
+  --background2: #201b24;
+  --background3: #6c6777;
+  --background4: #373f4b;
+
+  --font1: #BFBDB8;
+  --font2: #A1A09B;
+  --font3: #7c7b76;
+  --font4: #66645F;
+  --icons: #586e8b;
+
+}
+
+body {
+  color: var(--font2);
+  background-color: var(--background1);
+}

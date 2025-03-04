@@ -1,3 +1,4 @@
 import LogoThree from "./LogoThree";
+import CircularSlide from "./CircularSlide";
 
-export { LogoThree };
+export { LogoThree, CircularSlide };

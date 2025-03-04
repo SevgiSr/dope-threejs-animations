@@ -1,12 +1,12 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 
-import { LogoThree } from "./pages";
+import { LogoThree, CircularSlide } from "./pages";
 
 function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route index element={<LogoThree />} />
+        <Route index element={<CircularSlide />} />
       </Routes>
     </HashRouter>
   );
